@@ -38,23 +38,22 @@ The dataset used in this project is a **fictional employee attrition dataset** c
    - Visualized feature importance to help HR teams focus on actionable areas.
 
 5. **Results Visualization**  
-   - Created visualizations to illustrate model performance and key attrition factors.
-   - **Bar charts** comparing accuracy, F1 score, and ROC AUC for each model.
-   - **Feature importance chart** showcasing the top drivers of turnover.
-   - **Pie chart** displaying the overall attrition rate.
+   - Created visualizations to illustrate the model performance and key attrition factors.
+   - Bar charts comparing accuracy, F1 score, and ROC AUC for each model.
+   - Feature importance chart showcasing the top drivers of turnover.
 
 ## 📊 Key Insights
 
 - **Top Factors Influencing Attrition:**  
-  The analysis identified several critical factors influencing employee attrition, including:
-  - **Job Role**
-  - **Monthly Income**
-  - **Work-Life Balance**
+   The analysis identified several critical factors influencing employee attrition, including:
+   - Job Role
+   - Monthly Income
+   - Work-Life Balance
 
 - **Actionable Insights for HR:**  
-  By focusing on these high-impact areas, HR departments can:
-  - Develop targeted retention strategies for high-risk roles.
-  - Explore adjustments to income structures or work-life balance policies.
+   By focusing on these high-impact areas, HR departments can:
+   - Develop targeted retention strategies for high-risk roles.
+   - Explore adjustments to income structures or work-life balance policies.
 
 ## 🚀 Getting Started
 
@@ -64,11 +63,39 @@ To run this project locally, follow these steps:
 
 Ensure you have the following installed:
 - **Python 3.6+**
-- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
+- Libraries: **pandas**, **numpy**, **matplotlib**, **seaborn**, **scikit-learn**
 
 ### Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/avinishaaa/employee-attrition-prediction.git
+   git clone https://github.com/yourusername/employee-attrition-prediction.git
    cd employee-attrition-prediction
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Jupyter Notebook**
+   - Open the notebook and run each cell to execute the data analysis pipeline.
+
+## 📈 Results
+
+After testing multiple models, **Logistic Regression** emerged as the best model based on accuracy, F1 score, and ROC AUC. The results indicate that job role, monthly income, and work-life balance are significant predictors of attrition, providing valuable insights for HR teams.
+
+## 🛠️ Tools Used
+
+- **Python** for programming
+- **scikit-learn** for model building
+- **pandas** and **numpy** for data manipulation
+- **matplotlib** and **seaborn** for data visualization
+
+## 📢 Contributing
+
+Contributions are welcome! If you'd like to improve the project or add new features, feel free to create a **pull request**. Please make sure to follow the repository’s coding style and add comments for clarity.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the **LICENSE** file for details.
